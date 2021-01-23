@@ -1,0 +1,59 @@
+============================== Flask Installation steps ===============================
+-----------------------------------------
+Install updates: sudo apt update	   = \
+					      					===> ubuntu 14.0.4
+Upgrade packages: sudo apt upgrade	   = /
+
+----------------------------------------
+
+Install pip: sudo apt install python3-pip
+
+Check Python Version: python3 -V
+
+Install Python virtual environment: sudo apt install python3-venv
+
+Home root Make a directory: mkdir my_flask_app 
+
+Change to above directory: cd my_flask_app
+
+Create new Environment: python3 -m venv venv
+
+Activate Environment: source venv/bin/activate
+
+Install Flask: pip3 install Flask
+
+Check Flask version: python -m flask --version 
+
+export PATH=/home/nmrec/.local/bin:$PATH
+
+=======================================================================================
+========================= MongoDB and pymongo connections =============================
+
+install pymongo: pip3 install pymongo
+
+install flask_pymongo: pip3 install flask_pymongo
+
+========================================================================================
+=========================== Face Recognition Installation Steps ========================
+Install skbuild: pip3 install skbuild (or) pip3 install scikit-build (or) sudo apt-get install build-essential cmake
+Install CMake: pip3 install CMake (or)  sudo apt-get -y install cmake
+
+Install face_recognition libraries: pip3 install face_recognition
+
+
+Resize image: pip3 install python-resize-image
+=======================================================================================
+====================================== Excel web view =========================================
+
+pip3 install openpyxl
+
+To print xlsheet: pip3 install pandas
+		  pip3 install xlrd
+=======================================================================================
+****************************** Text-to-speech(Not necessary) ****************************************
+Install setuptools: pip3 install --upgrade setuptools
+Install text-to-speech: pip3 install pyttsx3
+
+=======================================================================================
+
+
